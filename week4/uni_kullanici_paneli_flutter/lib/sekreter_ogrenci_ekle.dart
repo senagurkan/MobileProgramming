@@ -35,7 +35,7 @@ class _SekreterOgrenciEkleState extends State<SekreterOgrenciEkle> {
         SnackBar(content: Text('${ogrenci.isim} ${ogrenci.soyisim} eklendi!')),
       );
 
-      Navigator.pop(context); // Sekreter menüsüne geri dön
+      Navigator.pop(context);
     }
   }
 

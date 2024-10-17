@@ -36,7 +36,7 @@ class _HocaSinavEkleState extends State<HocaSinavEkle> {
         SnackBar(content: Text('Sınav eklendi: $_sinavTuru')),
       );
 
-      Navigator.pop(context); // Geri dön
+      Navigator.pop(context);
     }
   }
 

@@ -1,10 +1,16 @@
+/*
+Sena Gürkan
+20120205021
+Main dosyası oluşturuldu. Ana menü bu sayfada yer alıyor. Diğer menülerin sayfalarına yönlendirme yapılıyor.
+*/
+
 import 'package:flutter/material.dart';
 import 'ogrenci_menu.dart';
 import 'hoca_menu.dart';
 import 'sekreter_menu.dart';
 import 'models/ogrenci.dart';
 import 'models/sekreter.dart';
-import 'models/hoca.dart'; // Hoca modelini ekliyoruz
+import 'models/hoca.dart';
 
 void main() {
   runApp(UniKullaniciPaneliApp());
@@ -26,9 +32,9 @@ class UniKullaniciPaneliApp extends StatelessWidget {
 class AnaMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final Ogrenci ogrenci = Ogrenci("Ahmet", "Yılmaz"); // Öğrenci nesnesi
-    final Sekreter sekreter = Sekreter(); // Sekreter nesnesi
-    final Hoca hoca = Hoca("Ali", "Veli"); // Hoca nesnesi
+    final Ogrenci ogrenci = Ogrenci("Ahmet", "Yılmaz");
+    final Sekreter sekreter = Sekreter();
+    final Hoca hoca = Hoca("Ali", "Veli");
 
     return Scaffold(
       appBar: AppBar(
@@ -57,8 +63,7 @@ class AnaMenu extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>
-                          HocaMenu(hoca: hoca), // Hoca menüsüne geçiş
+                      builder: (context) => HocaMenu(hoca: hoca),
                     ),
                   );
                 },

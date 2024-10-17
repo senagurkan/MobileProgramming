@@ -1,3 +1,8 @@
+/*
+Sena Gürkan
+20120205021
+Sekreter modeli oluşturuldu. Hoca ve öğrenci ekleme fonksiyonları eklendi. Hocaları ve öğrencileri listeleme fonksiyonları eklendi.
+*/
 import 'hoca.dart';
 import 'ogrenci.dart';
 

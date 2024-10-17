@@ -23,7 +23,7 @@ class SekreterOgrencileriListele extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 8.0),
               itemCount: sekreter.ogrenciListesi.length,
               separatorBuilder: (context, index) => const Divider(
-                thickness: 1, // İnce çizgi
+                thickness: 1,
                 height: 1,
               ),
               itemBuilder: (context, index) {

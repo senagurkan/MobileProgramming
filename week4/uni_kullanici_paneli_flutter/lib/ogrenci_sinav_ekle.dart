@@ -28,7 +28,7 @@ class _OgrenciSinavEkleState extends State<OgrenciSinavEkle> {
         SnackBar(content: Text('${_dersAdiController.text} sınavı eklendi!')),
       );
 
-      Navigator.pop(context); // Öğrenci menüsüne geri dön
+      Navigator.pop(context);
     }
   }
 

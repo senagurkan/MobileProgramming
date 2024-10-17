@@ -1,3 +1,9 @@
+/*
+Sena Gürkan
+20120205021
+Bu projenin model dosyaları bir önceki haftadan alınmıştır. Darttaki projeyi fluttera taşıyıp projeye ön yüz ekledim.
+Hoca modelinde ders ve sınav ekleme fonksiyonları oluşturuldu. Ders ve sınav listelerini döndüren fonksiyonlar eklendi.
+*/
 import 'kisi.dart';
 
 class Ders {

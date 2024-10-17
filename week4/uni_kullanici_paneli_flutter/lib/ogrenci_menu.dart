@@ -83,7 +83,7 @@ class OgrenciMenu extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pop(context); // Ana menüye geri dön
+                  Navigator.pop(context);
                 },
                 child: const Text('Çıkış'),
               ),

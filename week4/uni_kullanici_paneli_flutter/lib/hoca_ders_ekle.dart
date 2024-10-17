@@ -31,7 +31,7 @@ class _HocaDersEkleState extends State<HocaDersEkle> {
         SnackBar(content: Text('${_dersAdiController.text} eklendi!')),
       );
 
-      Navigator.pop(context); // Geri dön
+      Navigator.pop(context);
     }
   }
 

@@ -29,7 +29,7 @@ class _OgrenciDersEkleState extends State<OgrenciDersEkle> {
             content: Text('${_dersAdiController.text} başarıyla eklendi!')),
       );
 
-      Navigator.pop(context); // Öğrenci menüsüne geri dön
+      Navigator.pop(context);
     }
   }
 

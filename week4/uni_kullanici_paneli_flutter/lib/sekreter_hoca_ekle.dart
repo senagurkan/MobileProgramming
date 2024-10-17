@@ -35,7 +35,7 @@ class _SekreterHocaEkleState extends State<SekreterHocaEkle> {
         SnackBar(content: Text('${hoca.isim} ${hoca.soyisim} eklendi!')),
       );
 
-      Navigator.pop(context); // Sekreter menüsüne geri dön
+      Navigator.pop(context);
     }
   }
 

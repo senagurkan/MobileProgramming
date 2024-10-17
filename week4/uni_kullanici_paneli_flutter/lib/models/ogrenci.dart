@@ -1,3 +1,9 @@
+/*
+Sena Gürkan
+20120205021
+Öğrenci modelinde ders ve sınav ekleme fonksiyonları oluşturuldu. Ders ve sınav listelerini döndüren fonksiyonlar eklendi.
+*/
+
 import 'kisi.dart';
 
 class Ogrenci extends Kisi {
