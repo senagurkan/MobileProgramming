@@ -1,0 +1,21 @@
+Flutter Uygulaması
+Bu proje, öğrenciler, öğretmenler ve sekreterler için ayrı giriş, kayıt ve yönetim panelleri sunan bir Flutter uygulamasıdır.
+
+## Özellikler
+
+- **Giriş ve Kayıt**: Öğrenci, öğretmen ve sekreter için ayrı giriş ve kayıt sayfaları.
+- **Kullanıcı Panelleri**:
+  - Öğrenciler: Ders ekleme, sınav ekleme ve listeleme.
+  - Öğretmenler: Ders ve sınav ekleme ve listeleme.
+  - Sekreterler: Öğrenci ve öğretmen ekleme, listeleme.
+- **Responsive Tasarım**: Mobil cihazlara uyumlu ve sade bir arayüz.
+
+## Haftalık Gelişmeler
+
+- **Week 4**: Temel arayüz ve responsive tasarım tamamlandı. Kullanıcı giriş sayfaları eklendi.
+- **Week 5**: Giriş işlemleri, kayıt sayfaları ve kullanıcı yönetim fonksiyonları eklendi.
+
+## Kurulum
+
+1. `flutter pub get` ile bağımlılıkları yükleyin.
+2. `flutter run` komutuyla uygulamayı çalıştırın.
